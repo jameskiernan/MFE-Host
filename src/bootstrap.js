@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom';
 
 const Alert = React.lazy(() => import('app2/Alert'));
 
-function App() {
+const App = () => {
   const alertContent = {
-    title: 'Hello ',
+    title: 'Hello World',
     text: 'This is text from App1 sent to App2 via props'
   }
   return (
